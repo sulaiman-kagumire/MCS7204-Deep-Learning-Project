@@ -9,6 +9,6 @@ seaborn
 pathlib
 glob2
 requests
-PIL
+pillow
 shutils
 itertools
