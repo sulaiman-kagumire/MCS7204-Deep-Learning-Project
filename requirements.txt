@@ -1,0 +1,14 @@
+streamlit
+tensorflow
+cv2
+pandas
+numpy
+scikit-learn
+matplolib
+seaborn
+pathlib
+glob
+requests
+PIL
+shutils
+itertools
