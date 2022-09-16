@@ -4,7 +4,7 @@ opencv-python
 pandas
 numpy
 scikit-learn
-matplolib
+matplotlib
 seaborn
 pathlib
 glob
