@@ -11,4 +11,3 @@ glob2
 requests
 pillow
 shutils
-itertools
