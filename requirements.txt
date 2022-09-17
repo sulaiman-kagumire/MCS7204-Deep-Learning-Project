@@ -1,5 +1,8 @@
 streamlit
 tensorflow
+ffmpeg 
+libsm6 
+libxext6
 opencv-python
 pandas
 numpy
