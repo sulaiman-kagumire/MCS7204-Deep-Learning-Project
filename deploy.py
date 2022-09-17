@@ -77,25 +77,25 @@ def loading_model():
 
     # imported the requests library
     
-    model_url = 'https://drive.google.com/file/d/1gSHaAeLtsgdL5y2jlDnWo2OBJLG1OPAQ/view?usp=sharing'
+#     model_url = 'https://drive.google.com/file/d/1gSHaAeLtsgdL5y2jlDnWo2OBJLG1OPAQ/view?usp=sharing'
     
     # URL of the image to be downloaded is defined as image_url
-    r = requests.get(model_url) # create HTTP response object
+#     r = requests.get(model_url) # create HTTP response object
     
     # send a HTTP request to the server and save
     # the HTTP response in a response object called r
-    with open("opa_model",'wb') as f:
+#     with open("opa_model",'wb') as f:
   
-        # Saving received content as a png file in
-        # binary format
+#         # Saving received content as a png file in
+#         # binary format
   
-        # write the contents of the response (r.content)
-        # to a new file in binary mode.
-        f.write(r.content)
+#         # write the contents of the response (r.content)
+#         # to a new file in binary mode.
+#         f.write(r.content)
 
 
 
-    model = tf.keras.models.load_model('opa_model.h5')
+    model = tf.keras.models.load_model('opacity_model.h5')
     return model
 
 # Designing how the interface of the web page will look
