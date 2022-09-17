@@ -129,7 +129,7 @@ else:
   score = tf.nn.softmax(predictions[0])
   # st.write(predictions)
   # st.write(score)
-  class_names = ['norma', 'sick']
+  class_names = ['normal', 'sick']
   string = "This image is: "+ class_names[np.argmax(predictions)]
   st.success(string)
  
