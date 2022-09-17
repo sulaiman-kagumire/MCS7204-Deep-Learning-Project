@@ -11,3 +11,4 @@ glob2
 requests
 pillow
 shutils
+tqdm
