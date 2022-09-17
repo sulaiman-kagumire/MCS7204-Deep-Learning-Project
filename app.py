@@ -31,7 +31,7 @@ from tensorflow.keras import layers
 
 import tensorflow as tf
 # import tensorflow_addons as tfa
-import torch
+# import torch
 from tensorflow import keras
 
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
