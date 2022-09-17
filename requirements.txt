@@ -1,6 +1,6 @@
 streamlit
 tensorflow
-opencv
+opencv-contrib-python
 pandas
 numpy
 scikit-learn
