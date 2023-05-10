@@ -129,7 +129,7 @@ else:
   # st.write(predictions)
   # st.write(score)
   class_names = ['normal', 'sick']
-  string = "This image is: "+ class_names[np.argmax(predictions)]
+  string = "This image is likely to be: "+ class_names[np.argmax(predictions)]
   st.success(string)
   print("{} Disease detected with {:.2f} percent confidence".format(
       class_names[np.argmax(score)],100*np.max(score)
