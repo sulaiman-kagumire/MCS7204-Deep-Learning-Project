@@ -36,7 +36,7 @@ from tensorflow import keras
 
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from keras.utils.np_utils import to_categorical
-from keras.optimizers import adam_v2
+# from keras.optimizers import adam_v2
 from tensorflow.keras.preprocessing import image
 from keras.layers import Conv2D, BatchNormalization, MaxPool2D, Dropout, Flatten, Dense, SeparableConv2D, GlobalAveragePooling2D, Input, ZeroPadding2D
 from tensorflow.keras.models import Model, Sequential, load_model
